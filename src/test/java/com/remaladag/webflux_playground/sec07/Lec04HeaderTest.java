@@ -5,7 +5,6 @@ import org.junit.jupiter.api.Test;
 import org.springframework.web.reactive.function.client.WebClient;
 import reactor.test.StepVerifier;
 
-import java.time.Duration;
 import java.util.Map;
 
 public class Lec04HeaderTest extends AbstractWebClient {

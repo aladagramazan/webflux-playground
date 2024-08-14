@@ -1,7 +1,6 @@
 package com.remaladag.webflux_playground.sec07;
 
 import com.remaladag.webflux_playground.sec07.dto.CalculatorResponse;
-import com.remaladag.webflux_playground.sec07.dto.Product;
 import org.junit.jupiter.api.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
