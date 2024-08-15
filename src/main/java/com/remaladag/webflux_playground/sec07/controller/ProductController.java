@@ -30,6 +30,8 @@ public class ProductController {
                 .map(count -> new UploadResponse(UUID.randomUUID(), count));
     }
 
+    //MediaType.APPLICATION_NDJSON_VALUE service to service communication
+    //  MediaType.TEXT_EVENT_STREAM_VALUE // browser to service communication
     @GetMapping(value = "download", produces = MediaType.APPLICATION_NDJSON_VALUE)
     public Flux<ProductDto> downloadProducts() {
         return productService.getAllProducts();
